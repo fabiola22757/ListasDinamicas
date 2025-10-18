@@ -59,7 +59,9 @@ struct CardView: View {
                     })
                 }
             }
-        }//.frame(width: 350, height: 100)
+        }.onAppear(){
+            print(name)
+        }
     }
 }
 
